@@ -1,0 +1,23 @@
+version: '3'
+services:
+
+  sidecar:
+    image: hydrokhoos/ndn-all
+    # restart: always
+    volumes:
+      - ./sidecar/src/:/src/
+      - data-volume:/data/
+    ports:
+     - "10.0.10.131:36363:6363/udp"
+
+  service:
+    # image: hydrokhoos/ubuntu-ndn-python
+    build: ./service
+    # restart: always
+    tty: true
+    volumes:
+      - ./service/src/:/src/
+      - data-volume:/data/
+
+volumes:
+  data-volume:
