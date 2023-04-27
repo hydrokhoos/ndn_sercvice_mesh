@@ -1,0 +1,74 @@
+2023-04-07 10:29:04,170	Shutting down
+2023-04-07 10:29:04,176	Receiving Ctrl+C, exit
+2023-04-07 10:29:06,646	Shutting down
+2023-04-07 10:29:06,652	Receiving Ctrl+C, exit
+2023-04-10 20:04:20,992	Shutting down
+2023-04-10 20:04:20,996	Receiving Ctrl+C, exit
+2023-04-10 20:11:52,980	Interest	/img1.png/32=metadata	IN
+2023-04-10 20:11:52,984	Data	/img1.png/32=metadata	OUT
+2023-04-10 20:11:56,984	Interest	/img1.png/32=metadata	IN
+2023-04-10 20:11:56,987	Data	/img1.png/32=metadata	OUT
+2023-04-10 20:12:00,987	Interest	/img1.png/32=metadata	IN
+2023-04-10 20:12:00,990	Data	/img1.png/32=metadata	OUT
+2023-04-10 20:12:21,416	Interest	/img1.png	IN
+2023-04-10 20:12:21,418	Data	/img1.png	OUT
+2023-04-10 20:12:29,968	Interest	/img1.png/ping/9989469768877683244	IN
+2023-04-10 20:12:29,970	Data	/img1.png/ping/9989469768877683244	OUT
+2023-04-10 20:12:30,972	Interest	/img1.png/ping/9989469768877683245	IN
+2023-04-10 20:12:30,976	Data	/img1.png/ping/9989469768877683245	OUT
+2023-04-10 20:12:31,977	Interest	/img1.png/ping/9989469768877683246	IN
+2023-04-10 20:12:31,981	Data	/img1.png/ping/9989469768877683246	OUT
+2023-04-10 20:12:32,977	Interest	/img1.png/ping/9989469768877683247	IN
+2023-04-10 20:12:32,979	Data	/img1.png/ping/9989469768877683247	OUT
+2023-04-10 20:12:33,978	Interest	/img1.png/ping/9989469768877683248	IN
+2023-04-10 20:12:33,981	Data	/img1.png/ping/9989469768877683248	OUT
+2023-04-10 20:12:34,978	Interest	/img1.png/ping/9989469768877683249	IN
+2023-04-10 20:12:34,981	Data	/img1.png/ping/9989469768877683249	OUT
+2023-04-10 20:12:35,980	Interest	/img1.png/ping/9989469768877683250	IN
+2023-04-10 20:12:35,983	Data	/img1.png/ping/9989469768877683250	OUT
+2023-04-10 20:12:36,982	Interest	/img1.png/ping/9989469768877683251	IN
+2023-04-10 20:12:36,984	Data	/img1.png/ping/9989469768877683251	OUT
+2023-04-10 20:12:58,067	Shutting down
+2023-04-10 20:12:58,070	Receiving Ctrl+C, exit
+2023-04-10 20:14:43,658	Shutting down
+2023-04-10 20:14:43,662	Receiving Ctrl+C, exit
+2023-04-10 20:17:38,302	Shutting down
+2023-04-10 20:17:38,306	Receiving Ctrl+C, exit
+2023-04-10 20:41:13,853	Shutting down
+2023-04-10 20:41:13,856	Receiving Ctrl+C, exit
+2023-04-10 22:39:25,683	Shutting down
+2023-04-10 22:39:25,686	Receiving Ctrl+C, exit
+2023-04-10 22:39:38,376	Shutting down
+2023-04-10 22:39:38,378	Receiving Ctrl+C, exit
+2023-04-10 22:40:04,916	Interest	/img1.png	IN
+2023-04-10 22:40:04,916	Data	/img1.png	OUT
+2023-04-10 22:40:04,919	Interest	/img1.png/seg=1	IN
+2023-04-10 22:40:04,919	Data	/img1.png/seg=1	OUT
+2023-04-10 22:40:04,921	Interest	/img1.png/seg=2	IN
+2023-04-10 22:40:04,921	Data	/img1.png/seg=2	OUT
+2023-04-10 22:40:04,923	Interest	/img1.png/seg=3	IN
+2023-04-10 22:40:04,924	Data	/img1.png/seg=3	OUT
+2023-04-10 22:40:04,926	Interest	/img1.png/seg=4	IN
+2023-04-10 22:40:04,926	Data	/img1.png/seg=4	OUT
+2023-04-10 22:40:04,928	Interest	/img1.png/seg=5	IN
+2023-04-10 22:40:04,928	Data	/img1.png/seg=5	OUT
+2023-04-10 22:40:04,930	Interest	/img1.png/seg=6	IN
+2023-04-10 22:40:04,930	Data	/img1.png/seg=6	OUT
+2023-04-10 22:41:53,361	Interest	/img1.png	IN
+2023-04-10 22:41:53,361	Data	/img1.png	OUT
+2023-04-10 22:41:53,363	Interest	/img1.png/seg=1	IN
+2023-04-10 22:41:53,364	Data	/img1.png/seg=1	OUT
+2023-04-10 22:41:53,366	Interest	/img1.png/seg=2	IN
+2023-04-10 22:41:53,366	Data	/img1.png/seg=2	OUT
+2023-04-10 22:41:53,369	Interest	/img1.png/seg=3	IN
+2023-04-10 22:41:53,369	Data	/img1.png/seg=3	OUT
+2023-04-10 22:41:53,371	Interest	/img1.png/seg=4	IN
+2023-04-10 22:41:53,372	Data	/img1.png/seg=4	OUT
+2023-04-10 22:41:53,374	Interest	/img1.png/seg=5	IN
+2023-04-10 22:41:53,374	Data	/img1.png/seg=5	OUT
+2023-04-10 22:41:53,376	Interest	/img1.png/seg=6	IN
+2023-04-10 22:41:53,376	Data	/img1.png/seg=6	OUT
+2023-04-10 22:54:45,031	Shutting down
+2023-04-10 22:54:45,034	Receiving Ctrl+C, exit
+2023-04-10 22:54:46,776	Shutting down
+2023-04-10 22:54:46,779	Receiving Ctrl+C, exit

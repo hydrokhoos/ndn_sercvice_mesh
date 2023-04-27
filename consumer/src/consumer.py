@@ -21,10 +21,10 @@ if relay:
     target_name = '/relay/' + target_name
 
 filepath = '/src/'
-ext = '.jpg'
+ext = '.png'
 
 # target_name = '/concatimg/img1'+ext+'-img2'+ext
-target_name = '/concatimg/img1_org'+ext+'-img2_org'+ext
+target_name = '/concatimg/img1'+ext+'-img2'+ext
 
 target_name = Name.normalize(target_name)
 fetchedfile = 'fetched' + Name.to_str(target_name).replace('/', '-')
@@ -32,7 +32,7 @@ fetchedfile = fetchedfile.replace('.', '').replace(',', '') + ext
 
 
 async def my_segment_fetcher(app: NDNApp, name: NonStrictName, timeout=4000, retry_times=3,
-                          validator=None, must_be_fresh=True):
+                             validator=None, must_be_fresh=True):
     """
     An async-generator to fetch a segmented object. Interests are issued one by one.
     :param app: NDN Application
@@ -83,13 +83,13 @@ async def my_segment_fetcher(app: NDNApp, name: NonStrictName, timeout=4000, ret
         seg_no += 1
 
 
-
 async def main():
     get = time.time()
     cnt = 0
     data = b''
     async for seg in my_segment_fetcher(app, target_name, timeout=40000):
-        name4log = Name.to_str(Name.normalize(target_name) + [Component.from_segment(cnt)])
+        name4log = Name.to_str(Name.normalize(
+            target_name) + [Component.from_segment(cnt)])
         data += seg
         cnt += 1
         logging.info('Data\t'+Name.to_str(name4log)+'\tIN')

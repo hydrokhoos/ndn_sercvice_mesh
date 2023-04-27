@@ -2,13 +2,14 @@ version: '3'
 services:
 
   sidecar:
-    image: hydrokhoos/ndn-all
+    image: hydrokhoos/ndn-all:arm
     # restart: always
+    tty: true
     volumes:
       - ./sidecar/src/:/src/
       - data-volume:/data/
     ports:
-     - "10.0.10.131:36363:6363/udp"
+      - "172.16.232.73:63633:6363/udp"
 
   service:
     # image: hydrokhoos/ubuntu-ndn-python

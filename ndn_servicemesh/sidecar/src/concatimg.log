@@ -1,0 +1,82 @@
+2023-04-10 20:02:40,439	Shutting down
+2023-04-10 20:02:40,442	Receiving Ctrl+C, exit
+2023-04-10 20:03:31,288	Shutting down
+2023-04-10 20:03:31,292	Receiving Ctrl+C, exit
+2023-04-10 20:11:33,866	Shutting down
+2023-04-10 20:11:33,870	Receiving Ctrl+C, exit
+2023-04-10 20:18:33,401	Shutting down
+2023-04-10 20:18:33,404	Receiving Ctrl+C, exit
+2023-04-10 22:39:50,140	Shutting down
+2023-04-10 22:39:50,145	Receiving Ctrl+C, exit
+2023-04-10 22:40:04,912	Interest	/concatimg/img1.png-img2.png	IN
+2023-04-10 22:40:04,914	Interest	/img1.png	OUT
+2023-04-10 22:40:04,915	Interest	/img2.png	OUT
+2023-04-10 22:40:04,918	Data	/img1.png/seg=0	IN
+2023-04-10 22:40:04,918	Interest	/img1.png/seg=1	OUT
+2023-04-10 22:40:04,920	Data	/img1.png/seg=1	IN
+2023-04-10 22:40:04,920	Interest	/img1.png/seg=2	OUT
+2023-04-10 22:40:04,922	Data	/img1.png/seg=2	IN
+2023-04-10 22:40:04,922	Interest	/img1.png/seg=3	OUT
+2023-04-10 22:40:04,924	Data	/img1.png/seg=3	IN
+2023-04-10 22:40:04,925	Interest	/img1.png/seg=4	OUT
+2023-04-10 22:40:04,927	Data	/img1.png/seg=4	IN
+2023-04-10 22:40:04,927	Interest	/img1.png/seg=5	OUT
+2023-04-10 22:40:04,929	Data	/img1.png/seg=5	IN
+2023-04-10 22:40:04,929	Interest	/img1.png/seg=6	OUT
+2023-04-10 22:40:04,931	Data	/img1.png/seg=6	IN
+2023-04-10 22:40:04,932	Manually shutdown
+2023-04-10 22:40:04,933	Message	OUT
+2023-04-10 22:40:04,952	Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<NDNApp._receive() done, defined at /usr/local/lib/python3.8/dist-packages/ndn/app.py:70> exception=JSONDecodeError('Expecting value: line 1 column 1 (char 0)')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/ndn/app.py", line 105, in _receive
+    await self._on_interest(name, param, app_param, sig, raw_packet=data)
+  File "/usr/local/lib/python3.8/dist-packages/ndn/app.py", line 514, in _on_interest
+    node.callback(name, param, app_param, **kwargs)
+  File "/src/concatimg.py", line 250, in on_interest
+    put_data = mcs.call_service(list(send_dict.keys()))
+  File "/src/msg_call_svc.py", line 67, in call_service
+    recieve_message = json.loads(recieve_message.decode())
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-10 22:40:20,633	Shutting down
+2023-04-10 22:40:20,636	Receiving Ctrl+C, exit
+2023-04-10 22:41:53,357	Interest	/concatimg/img1.png-img2.png	IN
+2023-04-10 22:41:53,359	Interest	/img1.png	OUT
+2023-04-10 22:41:53,359	Interest	/img2.png	OUT
+2023-04-10 22:41:53,362	Data	/img1.png/seg=0	IN
+2023-04-10 22:41:53,363	Interest	/img1.png/seg=1	OUT
+2023-04-10 22:41:53,365	Data	/img1.png/seg=1	IN
+2023-04-10 22:41:53,365	Interest	/img1.png/seg=2	OUT
+2023-04-10 22:41:53,367	Data	/img1.png/seg=2	IN
+2023-04-10 22:41:53,368	Interest	/img1.png/seg=3	OUT
+2023-04-10 22:41:53,370	Data	/img1.png/seg=3	IN
+2023-04-10 22:41:53,370	Interest	/img1.png/seg=4	OUT
+2023-04-10 22:41:53,372	Data	/img1.png/seg=4	IN
+2023-04-10 22:41:53,373	Interest	/img1.png/seg=5	OUT
+2023-04-10 22:41:53,375	Data	/img1.png/seg=5	IN
+2023-04-10 22:41:53,375	Interest	/img1.png/seg=6	OUT
+2023-04-10 22:41:53,377	Data	/img1.png/seg=6	IN
+2023-04-10 22:41:53,377	Manually shutdown
+2023-04-10 22:41:53,379	Message	OUT
+2023-04-10 22:41:53,398	Message	IN
+2023-04-10 22:41:53,401	Data	/concatimg/img1.png-img2.png	OUT
+2023-04-10 22:41:53,404	Interest	/concatimg/img1.png-img2.png/seg=1	IN
+2023-04-10 22:41:53,406	Data	/concatimg/img1.png-img2.png/seg=1	OUT
+2023-04-10 22:41:53,408	Interest	/concatimg/img1.png-img2.png/seg=2	IN
+2023-04-10 22:41:53,410	Data	/concatimg/img1.png-img2.png/seg=2	OUT
+2023-04-10 22:41:53,412	Interest	/concatimg/img1.png-img2.png/seg=3	IN
+2023-04-10 22:41:53,414	Data	/concatimg/img1.png-img2.png/seg=3	OUT
+2023-04-10 22:41:53,416	Interest	/concatimg/img1.png-img2.png/seg=4	IN
+2023-04-10 22:41:53,418	Data	/concatimg/img1.png-img2.png/seg=4	OUT
+2023-04-10 22:41:53,420	Interest	/concatimg/img1.png-img2.png/seg=5	IN
+2023-04-10 22:41:53,422	Data	/concatimg/img1.png-img2.png/seg=5	OUT
+2023-04-10 22:41:53,424	Interest	/concatimg/img1.png-img2.png/seg=6	IN
+2023-04-10 22:41:53,425	Data	/concatimg/img1.png-img2.png/seg=6	OUT
+2023-04-10 22:53:45,374	Shutting down
+2023-04-10 22:53:45,377	Receiving Ctrl+C, exit

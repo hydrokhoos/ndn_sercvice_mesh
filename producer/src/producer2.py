@@ -11,9 +11,9 @@ import logging
 SEGMENT_SIZE = 4000
 
 
-# name = 'img1.png'
-name = 'img1_org.jpg'
-with open('src/' + name, 'rb') as f:
+name = 'img2.png'
+# name = 'img1_org.jpg'
+with open(name, 'rb') as f:
     data = f.read()
 name = Name.normalize(name)
 
@@ -29,10 +29,10 @@ def main():
 
     seg_cnt = (len(data) + SEGMENT_SIZE - 1) // SEGMENT_SIZE
     packets = [app.prepare_data(name + [Component.from_segment(i)],
-                                    data[i*SEGMENT_SIZE:(i+1)*SEGMENT_SIZE],
-                                    freshness_period=1000,
-                                    final_block_id=Component.from_segment(seg_cnt - 1))
-                   for i in range(seg_cnt)]
+                                data[i*SEGMENT_SIZE:(i+1)*SEGMENT_SIZE],
+                                freshness_period=1000,
+                                final_block_id=Component.from_segment(seg_cnt - 1))
+               for i in range(seg_cnt)]
     print(f'Created {seg_cnt} chunks under name {Name.to_str(name)}')
 
     @app.route(name)

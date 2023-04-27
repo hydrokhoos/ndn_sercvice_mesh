@@ -13,6 +13,7 @@ def relay(data_list):
     # just relay function
     return data_list
 
+
 def pick_one(data_list):
     return data_list[0]
 
@@ -34,11 +35,11 @@ def concatimg(data_list):
         else:
             baseimg = get_concat_h(baseimg, dlist[i])
     # baseimg.save('putdata.png')
-    baseimg.save('putdata.jpg')
-    with open('putdata.jpg', 'rb') as f:
+    baseimg.save('putdata.png')
+    with open('putdata.png', 'rb') as f:
         put_data = f.read()
     # os.remove('putdata.png')
-    os.remove('putdata.jpg')
+    os.remove('putdata.png')
     return put_data
 
 

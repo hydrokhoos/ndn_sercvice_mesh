@@ -1,0 +1,20 @@
+2023-04-10 20:01:58,383	Interest	/concatimg/img1_org.jpg-img2_org.jpg	OUT
+2023-04-10 20:17:14,437	Interest	/concatimg/img1.png-img2.png	OUT
+2023-04-10 22:39:08,706	Interest	/concatimg/img1.png-img2.png	OUT
+2023-04-10 22:40:04,910	Interest	/concatimg/img1.png-img2.png	OUT
+2023-04-10 22:40:44,953	Interest	/concatimg/img1.png-img2.png	OUT
+2023-04-10 22:41:53,355	Interest	/concatimg/img1.png-img2.png	OUT
+2023-04-10 22:41:53,402	Data	/concatimg/img1.png-img2.png/seg=0	IN
+2023-04-10 22:41:53,403	Interest	/concatimg/img1.png-img2.png/seg=1	OUT
+2023-04-10 22:41:53,407	Data	/concatimg/img1.png-img2.png/seg=1	IN
+2023-04-10 22:41:53,407	Interest	/concatimg/img1.png-img2.png/seg=2	OUT
+2023-04-10 22:41:53,411	Data	/concatimg/img1.png-img2.png/seg=2	IN
+2023-04-10 22:41:53,411	Interest	/concatimg/img1.png-img2.png/seg=3	OUT
+2023-04-10 22:41:53,414	Data	/concatimg/img1.png-img2.png/seg=3	IN
+2023-04-10 22:41:53,415	Interest	/concatimg/img1.png-img2.png/seg=4	OUT
+2023-04-10 22:41:53,418	Data	/concatimg/img1.png-img2.png/seg=4	IN
+2023-04-10 22:41:53,419	Interest	/concatimg/img1.png-img2.png/seg=5	OUT
+2023-04-10 22:41:53,422	Data	/concatimg/img1.png-img2.png/seg=5	IN
+2023-04-10 22:41:53,423	Interest	/concatimg/img1.png-img2.png/seg=6	OUT
+2023-04-10 22:41:53,426	Data	/concatimg/img1.png-img2.png/seg=6	IN
+2023-04-10 22:41:53,428	Manually shutdown
